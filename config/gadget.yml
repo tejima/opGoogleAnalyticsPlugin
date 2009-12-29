@@ -1,6 +1,0 @@
-codePC:
-  caption:
-    ja_JP: "GoogleAnaliticsPCタグ"
-  description:
-    ja_JP: "PCタグを挿入します（ユーザーからは見えません）"
-  component: [analytics, codePC]

@@ -1,19 +1,21 @@
 <?php
 class analyticsComponents extends sfComponents
 {
+
   public function executeCodeMobile()
   {
+  }
+/*
     // Copyright 2009 Google Inc. All Rights Reserved.
-    $GA_ACCOUNT = $op_config['opmarketingplugin_ga_account_mobile'];
 
     $GA_PIXEL = "ga.php";
      // global $GA_ACCOUNT, $GA_PIXEL;
     $url = "/opMarketingPlugin/";
     $url .= $GA_PIXEL . "?";
     //
-    $url .= "utmac=" . $GA_ACCOUNT;
+    $url .= "utmac=" . opConfig::get('marketing_config_ga_account');
     $url .= "&utmn=" . rand(0, 0x7fffffff);
-    $referer = $_SERVER["HTTP_REFERER"];
+    $referer = @$_SERVER["HTTP_REFERER"];
     $query = $_SERVER["QUERY_STRING"];
     $path = $_SERVER["REQUEST_URI"];
     if (empty($referer)) {
@@ -25,5 +27,5 @@ class analyticsComponents extends sfComponents
     }
     $url .= "&guid=ON";
     $this->code_mobile =  str_replace("&", "&amp;", $url);
-  }
+*/
 }

@@ -25,7 +25,6 @@ class opMarketingPluginActions extends sfActions
   public function executeIndex(sfWebRequest $request)
   {
     $this->form = new MarketingPluginConfigForm();
-    
     if ($request->isMethod(sfWebRequest::POST))
     {
       $this->form->bind($request->getParameter('marketing_config'));

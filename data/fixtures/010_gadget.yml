@@ -1,0 +1,10 @@
+Gadget:
+  code_mobile:
+    type: "mobileFooterContents"
+    name: "codeMobile"
+    sort_order: 101
+
+  code_pc:
+    type: "sideBannerContents"
+    name: "codePC"
+    sort_order: 102
