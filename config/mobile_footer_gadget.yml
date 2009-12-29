@@ -1,0 +1,7 @@
+codeMobile:
+  caption:
+    ja_JP: "GoogleAnaliticsモバイルタグ"
+  description:
+    ja_JP: "モバイルタグを挿入します（ユーザーからは見えません）"
+  component: [analytics, codeMobile]
+
