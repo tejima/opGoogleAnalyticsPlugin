@@ -1,5 +1,0 @@
-MobileFooterGadget:
-  code_mobile:
-    type: "mobileFooterContents"
-    name: "codeMobile"
-    sort_order: 100

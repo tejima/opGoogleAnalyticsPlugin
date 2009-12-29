@@ -3,10 +3,4 @@ codePC:
     ja_JP: "GoogleAnaliticsPCタグ"
   description:
     ja_JP: "PCタグを挿入します（ユーザーからは見えません）"
-  component: [analytics,codePC]
-codeMobile:
-  caption:
-    ja_JP: "GoogleAnaliticsモバイルタグ"
-  description:
-    ja_JP: "モバイルタグを挿入します（ユーザーからは見えません）"
-  component: [analytics, codeMobile]
+  component: [analytics, codePC]

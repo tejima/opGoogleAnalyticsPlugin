@@ -1,6 +1,0 @@
-homeSuccess:
-  customize:
-    sampleParts:
-      template: [hello, sampleParts]
-      parts: [information]
-      target: [after]

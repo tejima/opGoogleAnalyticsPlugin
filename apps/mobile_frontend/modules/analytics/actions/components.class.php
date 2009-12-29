@@ -26,8 +26,4 @@ class analyticsComponents extends sfComponents
     $url .= "&guid=ON";
     $this->code_mobile =  str_replace("&", "&amp;", $url);
   }
-  public function executeCodePC(){
-    echo "ERROR";
-    exit();
-  }
 }
