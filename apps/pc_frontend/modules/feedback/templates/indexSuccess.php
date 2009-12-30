@@ -31,7 +31,29 @@ rssmikle_item_podcast="icon";
 </div>
 <!-- end feedwind code -->
 
-<a target="_blank" href="http://openpne.uservoice.com/pages/33439-openpne-"><img src="http://dl.dropbox.com/u/151520/tmp/20091226openpnefeedback.png" alt="OpenPNEにフィードバックする" /></a>
 
+
+
+<script type="text/javascript">
+ function _loadUserVoice() {
+    var s = document.createElement('script');
+    s.src = ("https:" == document.location.protocol ? "https://" : "http://") + "cdn.uservoice.com/javascripts/widgets/tab.js";
+    document.getElementsByTagName('head')[0].appendChild(s);
+  }
+  _loadSuper = window.onload;
+  window.onload = (typeof window.onload != 'function') ? _loadUserVoice : function() { _loadSuper(); _loadUserVoice(); };
+
+</script>
+
+<script type="text/javascript">
+  var openpneOptions = {
+    key: 'openpne',
+    host: 'openpne.uservoice.com',
+    forum: '33439',
+    lang: 'ja',
+    showTab: false
+  };
+</script>
+<a href="#" onclick="UserVoice.Popin.show(openpneOptions); return false;"><img src="http://dl.dropbox.com/u/151520/permalink/20091230opMarketingPlugin/openpnefeedback.png" /></a>
 <br />
-<br />
+

@@ -3,7 +3,6 @@ Gadget:
     type: "mobileFooterContents"
     name: "codeMobile"
     sort_order: 101
-
   code_pc:
     type: "sideBannerContents"
     name: "codePC"
