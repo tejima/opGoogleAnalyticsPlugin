@@ -1,3 +1,7 @@
+■■opGoogleAnalyticsPluginとは？
+OpenPNE3でGoogleAnalyticsによるアクセス解析ができるように、タグを適切な場所にセットします。
+PC、携帯両対応。
+
 ■■セットアップ
 ・githubからZIPをダウンロードしpluginsディレクトリに展開
 
@@ -5,7 +9,8 @@
 ・管理画面でGoogleAnalyticsコードをセット
 
 ■■改定履歴（リリース）
-2009/12/29 0.8リリース GoogleAnalytics携帯版対応。ガジェット自動配置。
+2009/12/29 0.8リリース GoogleAnalytics携帯版対応、ガジェット自動配置
+2011/05/03 opGoogleAnalyticsPluginに名称変更
 
 ■■改訂履歴（開発日誌）
 2010/07/22 READMEを整備、TODOを追加
