@@ -10,6 +10,7 @@
 ■■改定履歴
 2009/12/29 0.8リリース GoogleAnalytics携帯版対応
 2010/07/22 READMEを整備、TODOを追加
+2011/05/03 ブランチモデルを変更。作法通りにdevelopブランチを優先させる
 
 ■■TODO
 ・opGoogleAnalyticsPluginに名称を変更する
