@@ -3,7 +3,7 @@
 if('none' !== $mo)
 {
 
-  $url = "/opMarketingPlugin/";
+  $url = "/opGoogleAnalyticsPlugin/";
   $url .= "ga.php?";
   
   $url .= "utmac=" . $mo;

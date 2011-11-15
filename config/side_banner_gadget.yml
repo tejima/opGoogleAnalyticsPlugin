@@ -1,6 +1,6 @@
 codePC:
   caption:
-    ja_JP: "MarketingPlugin GoogleAnalyticsタグガジェット"
+    ja_JP: "GoogleAnalyticsPlugin GoogleAnalyticsタグガジェット"
   description:
     ja_JP: "GoogleAnalyticsの計測タグを挿入します（このガジェットはSNS画面に表示されません）"
   component: [analytics, codePC]

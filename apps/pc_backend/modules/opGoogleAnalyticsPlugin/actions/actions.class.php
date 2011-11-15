@@ -8,14 +8,7 @@
  * file and the NOTICE file that were distributed with this source code.
  */
 
-/**
- * opAuthMailAddressPlugin actions.
- *
- * @package    OpenPNE
- * @subpackage opAuthMailAddressPlugin
- * @author     Kousuke Ebihara <ebihara@tejimaya.com>
- */
-class opMarketingPluginActions extends sfActions
+class opGoogleAnalyticsPluginActions extends sfActions
 {
  /**
   * Executes index action
@@ -24,14 +17,14 @@ class opMarketingPluginActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-    $this->form = new MarketingPluginConfigForm();
+    $this->form = new GoogleAnalyticsPluginConfigForm();
     if ($request->isMethod(sfWebRequest::POST))
     {
-      $this->form->bind($request->getParameter('marketing_config'));
+      $this->form->bind($request->getParameter('googleanalytics_config'));
       if ($this->form->isValid())
       {
         $this->form->save();
-        $this->redirect('opMarketingPlugin/index');
+        $this->redirect('opGoogleAnalyticsPlugin/index');
       }
     }
   }

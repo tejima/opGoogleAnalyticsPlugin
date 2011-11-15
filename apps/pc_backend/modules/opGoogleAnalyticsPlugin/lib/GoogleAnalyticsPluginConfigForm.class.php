@@ -1,9 +1,9 @@
 <?php
-class MarketingPluginConfigForm extends sfForm
+class GoogleAnalyticsPluginConfigForm extends sfForm
 {
   protected $configs = array(
-    'ga_account'   => 'opmarketingplugin_ga_account',
-    'ga_account_mobile'   => 'opmarketingplugin_ga_account_mobile',
+    'ga_account'   => 'googleanalyticsplugin_ga_account',
+    'ga_account_mobile'   => 'googleanalyticsplugin_ga_account_mobile',
   );
   public function configure()
   {
@@ -29,7 +29,7 @@ class MarketingPluginConfigForm extends sfForm
       }
     }
 
-    $this->getWidgetSchema()->setNameFormat('marketing_config[%s]');
+    $this->getWidgetSchema()->setNameFormat('googleanalytics_config[%s]');
   }
 
   public function save()
